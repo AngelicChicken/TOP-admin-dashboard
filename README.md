@@ -2,6 +2,9 @@
 admin-dashboard project from TOP
 
 Icon from https://pictogrammers.com/library/mdi/ {
+    dice-multiple by Michael Richins
+    https://pictogrammers.com/library/mdi/icon/dice-multiple/
+    
     magnify by Google
     https://pictogrammers.com/library/mdi/icon/magnify/
 
