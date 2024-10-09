@@ -15,18 +15,33 @@ body{
     grid-column: 1;
     grid-row: 1/10;
 
+    text-align: center;
+
     color: white;
     font-size: larger;
     font-family: "Poppins", sans-serif;
 }
 
-.logo{
+.logo, .mainContent > div, .subContent >div{
     display: flex;
     align-items: center;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
-img{
+.logo > img{
     width: 75px;
     height: auto;
+}
+
+.mainContent, .subContent{
+    margin-top: 15px;
+    font-size: large;
+    padding-left: 16px;
+}
+
+.mainContent > div > img, .subContent > div > img{
+    width: 25px;
+    height: auto;
+    padding-right: 5px;
 }
