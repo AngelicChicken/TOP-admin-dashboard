@@ -19,3 +19,14 @@ body{
     font-size: larger;
     font-family: "Poppins", sans-serif;
 }
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+img{
+    width: 75px;
+    height: auto;
+}
