@@ -45,3 +45,51 @@ body{
     height: auto;
     padding-right: 5px;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-left: 4vw;
+    margin-right: 8vw;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar > img{
+    width: 20px;
+    height: auto;
+}
+
+.header > .right{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.right > .icon{
+    width: 20px;
+    height: auto;
+}
+
+.right > .profilePhoto{
+    width: 50px;
+    height: auto;
+    clip-path: circle();
+}
+
+input{
+    background-color: rgb(228, 227, 227);
+    border: none;
+    border-radius: 20px;
+    width: 40vw;
+    height: 3vh;
+}
