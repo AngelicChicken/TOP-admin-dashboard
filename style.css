@@ -173,7 +173,7 @@ input{
     background-color: #f1c6c658;
 }
 
-.projects > p{
+.projects > p, .announcement > p, .trending > p{
     margin-top: 2vh;
     padding-left: 1vw;
     font-weight: 600;
@@ -219,13 +219,62 @@ input{
     font-weight: 400;
 }
 
+.card > .buttons{
+    grid-column: 3/4;
+    grid-row: 3;
+}
+
 .card > .buttons > img{
     width: 20px;
     height: auto;
     margin-right: 20px;
 }
 
-.card > .buttons{
-    grid-column: 3/4;
-    grid-row: 3;
+.announcement > .contents{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px #adadad;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-height: 40vh;
+    max-width: 18vw;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    margin-top: 2vh;
+    margin-left: 1vw;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.announcement > .contents > .content{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2vh;
+    border-bottom: 1px solid gray;
+
+    max-width: 200px;
+}
+
+.announcement > .contents > .content > .title{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.announcement > .contents > .content > p{
+    font-size: 10px;
+    font-weight: 300;
+    max-height: 60%;
+
+    margin-top: -3px;
+}
+
+.announcement > .contents > .content + .last{
+    border-bottom: none;
 }
