@@ -278,3 +278,65 @@ input{
 .announcement > .contents > .content + .last{
     border-bottom: none;
 }
+
+.profiles{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px #adadad;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-height: 23vh;
+    max-width: 18vw;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    margin-top: 2vh;
+    margin-left: 1vw;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.profiles > .profile{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+    font-family: "Poppins", sans-serif;
+
+    padding-bottom: 10px;
+}
+
+.profiles > .profile > .profilePhoto{
+    width: 30px;
+    height: 30px;
+    clip-path: circle();
+
+    grid-column: 1;
+    grid-row: 1/4;
+
+    justify-self: end;
+    align-self: center;
+}
+
+.profiles > .profile > .tag{
+    align-self: end;
+
+    font-size: 15px;
+    font-weight: 500;
+    
+    padding-left: 10px;
+}
+
+.profiles > .profile > .message{
+    align-self: start;
+    justify-self: start;
+
+    font-size: 10px;
+    font-weight: 400;
+
+    padding-left: 10px;
+}

@@ -4,9 +4,6 @@ admin-dashboard project from TOP
 Chicken profile Photo
 <a href="https://unsplash.com/@heytowner?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">JOHN TOWNER</a> on <a href="https://unsplash.com/photos/gray-and-red-rooster-0uN9iF4mgDI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-beef burger profile photo
-Photo by <a href="https://unsplash.com/@amir_v_ali?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">amirali mirhashemian</a> on <a href="https://unsplash.com/photos/burger-with-lettuce-and-tomatoes-sc5sTPMrVfk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
 duck profile photo
 Photo by <a href="https://unsplash.com/@nxn?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nikolay Tchaouchev</a> on <a href="https://unsplash.com/photos/two-brown-ducks-standing-on-green-grass-dIsSWoeYNek?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
