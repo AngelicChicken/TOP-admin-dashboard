@@ -49,9 +49,9 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    margin-top: 2vh;
-    margin-left: 4vw;
-    margin-right: 8vw;
+    padding-top: 2vh;
+    padding-left: 5vw;
+    padding-right: 9vw;
 }
 
 .searchbar{
@@ -92,4 +92,73 @@ input{
     border-radius: 20px;
     width: 40vw;
     height: 3vh;
+}
+
+.subheader{
+    display: flex;
+
+    padding-top: 2vh;
+    padding-right: 8vw;
+    padding-bottom: 2vh;
+
+    box-shadow: 1px 3px 3px #d5d5d5;
+}
+
+.subheader > .profile{
+    margin-right: auto;
+    grid-column: 1;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+
+    font-family: "Poppins", sans-serif;
+}
+
+.profile > .profilePhoto{
+    width: 75px;
+    height: auto;
+    clip-path: circle();
+
+    grid-column: 1;
+    grid-row: 1/4;
+
+    justify-self: end;
+}
+
+.profile > .message{
+    align-self: end;
+
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.profile > .username{
+    align-self: start;
+
+    font-size: medium;
+    font-weight: 700;
+}
+
+.subheader > .right{
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.right > button{
+    width: 80px;
+    height: 30px;
+
+    background-color: pink;
+    border: none;
+    border-radius: 20px;
+
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    font-weight: 600;
 }
